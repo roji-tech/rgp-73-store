@@ -9,7 +9,9 @@ const Home = () => {
 	return (
 		<>
 			<Banner />
-			<h2>Home</h2>
+			<div>
+				<h2 style={{ fontSize: "60px" }}>RGP-73 Store</h2>
+			</div>
 			<div>
 				<Products />
 			</div>

@@ -9,16 +9,16 @@ const Navbar = () => {
 		<div className="Navbar">
 			<span className="nav-logo">RGP-73 Store</span>
 			<div className={`nav-items ${isOpen && "open"}`}>
-				<Link to="/" className="link">
+				<Link to="/rgp-73-store" className="link">
 					HOME
 				</Link>
-				<Link to="/about" className="link">
+				<Link to="/rgp-73-store/about" className="link">
 					ABOUT
 				</Link>
-				<Link to="/products" className="link" >
+				<Link to="/rgp-73-store/products" className="link" >
 					PRODUCTS
 				</Link>
-				<Link to="/contact" className="link">CONTACT</Link>
+				<Link to="/rgp-73-store/contact" className="link">CONTACT</Link>
 			</div>
 			<div
 				className={`nav-toggle ${isOpen && "open"}`}

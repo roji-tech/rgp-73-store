@@ -5,29 +5,32 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
 import Error from './components/Error';
-import Footer from './components/Footer';
 import Home from './components/Home';
-import Navbar from './components/Navbar1';
+import Wrapper from './components/Wrapper';
+import Product from './components/Product';
+import Products from './components/Products';
 
 // CSS import
 import './App.css';
-import Products from './components/Products';
 
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
+
 
       <Routes>
-        <Route index path='/' element={<Home />} />
-        <Route path='about' element={<About />} />
-        <Route path='products' element={<Products />} >
-          
+        <Route path='rgp-73-store' element={<Wrapper />} >
+          <Route index element={<Home />} />
+          <Route path='/rgp-73-store/about' element={<About />} />
+          <Route path='/rgp-73-store/products' element={<Products />} >
+            <Route index path='/rgp-73-store/products' element={<Products />} />
+            <Route path='/rgp-73-store/products/:productId' element={<Product />} />
+          </Route>
+          <Route path='/rgp-73-store/contact' element={<Contact />} />
         </Route>
-        <Route path='contact' element={<Contact />} />
         <Route path='*' element={<Error />} />
       </Routes>
-      <Footer />
+  
     </BrowserRouter >
   );
 }
