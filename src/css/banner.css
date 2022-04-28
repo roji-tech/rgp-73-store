@@ -1,22 +1,33 @@
-#banner-wrap {
-	background-color: var(--nav-bg-color);
-	width: 100%;
-	min-height: 80vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.banner {
+  background-color: #444;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url(../img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
-
-#banner {
-	margin: none;
-	border: none;
-	width: 100%;
-	min-height: 80vh;
-	position: absolute;
-	align-content: center;
-	background-image: url("/src/img/blueAcce.jpeg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top; 
-	opacity: 0.3;
+.tagline {
+  color: var(--color-1);
+  margin-bottom: 2.8rem;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.explore-btn {
+  padding: 10px 40px;
+  background-color: var(--color-2);
+  color: var(--color-1);
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  border-radius: 20px;
 }
