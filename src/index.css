@@ -34,9 +34,7 @@ a:focus {
   font-weight: 700;
 }
 a:hover {
-  font-size: 17px;
   font-weight: 1000;
-  color: aqua;
 }
 a:focus {
   color: var(--header-color);

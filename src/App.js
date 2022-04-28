@@ -20,16 +20,16 @@ function App() {
         <Route path="rgp-73-store" element={<Wrapper />}>
           <Route index element={<Home />} />
           <Route path="/rgp-73-store/about" element={<About />} />
+          <Route path="/rgp-73-store/contact" element={<Contact />} />
           <Route path="/rgp-73-store/products" element={<Products />}>
-            <Route index path="/rgp-73-store/products" element={<Products />} />
+            <Route index path="/rgp-73-store/products" element={<Product />} />
             <Route
               path="/rgp-73-store/products/:productId"
               element={<Product />}
             />
           </Route>
-          <Route path="/rgp-73-store/contact" element={<Contact />} />
         </Route>
-        <Route path="*" element={<Error />} />
+          <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );

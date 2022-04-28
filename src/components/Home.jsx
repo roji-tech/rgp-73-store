@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 // Component import
 import Banner from "./Banner";
 import Products from "./Products";
@@ -14,7 +16,9 @@ const Home = () => {
 			<section className="value">
 				<div>
 					<h2 className="custom-title">
-						Why Tasty? <span></span>
+						<Link to={"rgp-73-store"}>
+							Why Tasty? <span></span>
+						</Link>
 					</h2>
 					<p className="value-text">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -60,9 +64,9 @@ const Home = () => {
 				</div>
 			</section>
 
-			{/* <div>
+			<div>
 				<Products />
-			</div> */}
+			</div>
 		</>
 	);
 };
