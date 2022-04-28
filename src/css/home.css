@@ -13,12 +13,14 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
-.value div {
-  flex-basis: 50%;
+
+.value div:nth-child(1) {
+  max-width: 500px;
 }
 .value div:nth-child(2) {
-  max-width: 350px;
+  max-width: 400px;
 }
 .value div img {
   width: 100%;
@@ -27,7 +29,7 @@
   display: inline-block;
   text-align: center;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 900;
   color: var(--color-3);
   position: relative;
   margin-bottom: 40px;
@@ -57,6 +59,7 @@
   background-color: var(--color-1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   width: 250px;
+  height: 160px;
   border-radius: 5px;
   padding: 20px;
   border: 2px solid var(--color-4);
@@ -67,4 +70,11 @@
 }
 .testimony .author {
   text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .value,
+  .testimonials {
+    padding: 1.5rem 1.2rem;
+  }
 }

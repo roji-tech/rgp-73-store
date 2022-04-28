@@ -15,10 +15,11 @@
 .tagline {
   color: var(--color-1);
   margin-bottom: 2.8rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
+  font-family: "Satisfy", cursive;
 }
 .explore-btn {
   padding: 10px 40px;
@@ -31,4 +32,12 @@
   border: none;
   font-size: 1rem;
   border-radius: 20px;
+}
+@media screen and (max-width: 480px) {
+  .banner {
+    height: 50vh;
+  }
+  .tagline {
+    font-size: 2rem;
+  }
 }
