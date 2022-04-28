@@ -80,7 +80,6 @@
   border: 1px solid var(--color-4);
   padding: 10px;
   margin-bottom: 25px;
-  font-family: sans-serif;
   letter-spacing: 1px;
 }
 .contact-form textarea {
