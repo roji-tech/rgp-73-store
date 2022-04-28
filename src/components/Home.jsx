@@ -2,8 +2,9 @@ import React from "react";
 // Component import
 import Banner from "./Banner";
 import Products from "./Products";
+// Image import
 import value from "../img/meal-1.jpg";
-
+// styles import
 import "../css/home.css";
 
 const Home = () => {
