@@ -33,17 +33,26 @@ const Contact = () => {
 
   return (
     <section className="contact-section">
-      <h1 className="contact-title">Contact Us</h1>
+      <h1 className="title">
+        Contact Us <span></span>
+      </h1>
       <div className="row">
         <div className="col-2">
-          <FaAddressBook className="address-icon" />
-          <p className="address-text">
-            4500 Spring Avenue, Fort Washington, Pennsylvania
-          </p>
-          <FaPhoneAlt className="address-icon" />
-          <p className="address-text">267-693-9364</p>
-          <HiOutlineMail className="address-icon" />
-          <p className="email">example@email.com</p>
+          <div className="address-lists">
+            <FaAddressBook className="address-icon" />
+            <p className="address-text">
+              4500 Spring Avenue, Fort Washington, Pennsylvania
+            </p>
+          </div>
+          <div className="address-lists">
+            <FaPhoneAlt className="address-icon" />
+            <p className="address-text">267-693-9364</p>
+          </div>
+
+          <div className="address-lists">
+            <HiOutlineMail className="address-icon" />
+            <p className="email">example@email.com</p>
+          </div>
           <div className="row-2 social-media">
             <FaTwitter className="social-media-icon" />
             <FaFacebookF className="social-media-icon" />

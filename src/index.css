@@ -41,3 +41,22 @@ a:hover {
 a:focus {
   color: var(--header-color);
 }
+.custom-title {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--color-3);
+  position: relative;
+  margin-bottom: 40px;
+}
+.custom-title span {
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  border-radius: 2px;
+  left: 0;
+  bottom: -10px;
+  transform: translate();
+  background-color: var(--color-2);
+}

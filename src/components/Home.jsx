@@ -13,7 +13,7 @@ const Home = () => {
       <Banner />
       <section className="value">
         <div>
-          <h2 className="title">
+          <h2 className="custom-title">
             Why Tasty? <span></span>
           </h2>
           <p className="value-text">
@@ -31,7 +31,7 @@ const Home = () => {
       </section>
 
       <section className="testimonials">
-        <h2 className="title">
+        <h2 className="custom-title">
           Testimonials <span></span>
         </h2>
         <div className="testimonies">
