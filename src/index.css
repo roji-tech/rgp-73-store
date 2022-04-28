@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
-body {
+body,
+input,
+textarea,
+button {
   margin: 0;
   color: var(--color-3);
   font-family: "Nunito", sans-serif;
@@ -25,6 +28,7 @@ code {
   --color-2: rgb(0, 115, 255);
   --color-3: #222;
   --color-4: #666;
+  --footer: rgb(209, 209, 209);
 }
 
 a,
@@ -33,11 +37,11 @@ a:focus {
   color: var(--header-color);
   font-weight: 700;
 }
-a:hover {
+/* a:hover {
   font-size: 17px;
   font-weight: 1000;
   color: aqua;
-}
+} */
 a:focus {
   color: var(--header-color);
 }

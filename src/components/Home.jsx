@@ -58,10 +58,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* <div>
-				<Products />
-			</div> */}
     </>
   );
 };
