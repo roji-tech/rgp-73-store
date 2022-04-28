@@ -4,3 +4,67 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+.value,
+.testimonials {
+  padding: 3rem 5rem;
+}
+.value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.value div {
+  flex-basis: 50%;
+}
+.value div:nth-child(2) {
+  max-width: 350px;
+}
+.value div img {
+  width: 100%;
+}
+.title {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-3);
+  position: relative;
+  margin-bottom: 40px;
+}
+.title span {
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  border-radius: 2px;
+  left: 0;
+  bottom: -10px;
+  transform: translate();
+  background-color: var(--color-2);
+}
+.value .value-text {
+  color: var(--color-4);
+  padding-right: 10px;
+}
+.testimonies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.testimony {
+  background-color: var(--color-1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  border-radius: 5px;
+  padding: 20px;
+  border: 2px solid var(--color-4);
+}
+.testimony p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.testimony .author {
+  text-align: center;
+}
