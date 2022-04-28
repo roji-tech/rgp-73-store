@@ -60,3 +60,8 @@ a:focus {
   transform: translate();
   background-color: var(--color-2);
 }
+@media screen and (max-width: 480px) {
+  .custom-title {
+    font-size: 1.6rem;
+  }
+}
