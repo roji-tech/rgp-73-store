@@ -10,7 +10,7 @@ import {
 const Banner = () => {
   return (
     <div className="banner">
-      <h1 className="tagline">Eat healthy, live better</h1>
+      <h1 className="tagline">Eat healthy. live better</h1>
       <div className="icons">
         <FaFacebookF className="banner-icon" />
         <FaWhatsapp className="banner-icon" />
