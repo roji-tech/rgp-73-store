@@ -31,7 +31,7 @@ const Footer = () => {
 							<Link to={"/rgp-73-store"}>home </Link>
 						</li>
 						<li>
-							<Link to={"/rgp-73-storeabout/"}>about </Link>
+							<Link to={"/rgp-73-store/about/"}>about </Link>
 						</li>
 						<li>
 							<Link to={"/rgp-73-store/products"}>products </Link>{" "}
