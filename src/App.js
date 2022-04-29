@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/rgp-73-store" element={<Wrapper />}>
+        <Route path="/rgp-73-store/" element={<Wrapper />}>
           <Route index element={<Home />} />
           <Route path="/rgp-73-store/about" element={<About />} />
           <Route path="/rgp-73-store/contact" element={<Contact />} />
@@ -28,9 +28,9 @@ function App() {
               element={<Product />}
             />
           </Route>
-          <Route path="/rgp-73-store/*" element={<Error />} />
+          <Route path={"*"} element={<Error />} />
         </Route>
-        <Route path="*" element={<Error />} />
+        <Route path={"*"} element={<Error />} />
       </Routes>
     </BrowserRouter>
   );
