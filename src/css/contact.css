@@ -65,7 +65,7 @@
 .contact-form {
   width: 25rem;
   border: 2px solid var(--color-4);
-  background-color: var(--color-1);
+  background-color: var(--color-3);
   box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
   padding: 30px 20px;
   border-radius: 5px;
@@ -74,7 +74,8 @@
 
 .contact-form .input {
   width: 100%;
-  color: var(--color-4);
+  color: var(--color-1);
+  font-weight: 800;
   background: none;
   outline: none;
   border: 1px solid var(--color-4);

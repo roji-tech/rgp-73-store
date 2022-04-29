@@ -28,8 +28,9 @@ function App() {
               element={<Product />}
             />
           </Route>
+          <Route path="/rgp-73-store/*" element={<Error />} />
         </Route>
-          <Route path="*" element={<Error />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>
   );

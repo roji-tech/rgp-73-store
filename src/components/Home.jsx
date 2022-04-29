@@ -16,9 +16,7 @@ const Home = () => {
 			<section className="value">
 				<div>
 					<h2 className="custom-title">
-						<Link to={"rgp-73-store"}>
 							Why Tasty? <span></span>
-						</Link>
 					</h2>
 					<p className="value-text">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit.

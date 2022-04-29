@@ -3,25 +3,24 @@ import Navbar from "./Navbar1";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import "../css/error.css";
+import errorImage from "../img/error.svg";
 
 const Error = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="error-wrap">
-				<h2 className="error">Error</h2>
-				<p>Page Not Found</p>
-				<Link
-					to="/rgp-73-store"
-					style={{
-						color: "white",
-						margin: "10px",
-						background: "white",
-						fontSize: "30px",
-					}}
-				>
-					<p>Click to go back to Home Page </p>
-				</Link>
+			<div className="error">
+				<div className="error-wrap">
+					<img src={errorImage} className="errorImage" alt="" />
+					<h2 className="error-text">Error</h2>
+				</div>
+				<p className="pg-not-fd">Page Not Found</p>
+
+				<div className="back-home-wrap">
+					<Link to="/rgp-73-store" className="back-home">
+						Click to go back to Home Page
+					</Link>
+				</div>
 			</div>
 			<Footer />
 		</div>
