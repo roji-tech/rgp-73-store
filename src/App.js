@@ -15,7 +15,7 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/rgp-73-store">
       <Routes>
         <Route path="/rgp-73-store/" element={<Wrapper />}>
           <Route index element={<Home />} />
