@@ -7,7 +7,7 @@ import imgs from "../img/lap2.jpeg";
 const About = () => {
 	return (
 		<>
-			<div>
+			<div className="about">
 				<div id="about-banner-wrap">
 					<div id="about-banner"></div>
 					<div id="about-banner-h2">

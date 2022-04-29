@@ -11,16 +11,16 @@ const Navbar = () => {
 				<span className="nav-logo">Tasty</span>
 			</Link>
 			<div className={`nav-items ${isOpen && "open"}`}>
-				<Link to="/rgp-73-store" className="link">
+				<Link to="/rgp-73-store" className="link" onClick={() => setIsOpen(!isOpen)}>
 					HOME
 				</Link>
-				<Link to="/rgp-73-store/about" className="link">
+				<Link to="/rgp-73-store/about" className="link" onClick={() => setIsOpen(!isOpen)}>
 					ABOUT
 				</Link>
-				<Link to="/rgp-73-store/products" className="link">
+				<Link to="/rgp-73-store/products" className="link" onClick={() => setIsOpen(!isOpen)}>
 					PRODUCTS
 				</Link>
-				<Link to="/rgp-73-store/contact" className="link">
+				<Link to="/rgp-73-store/contact" className="link" onClick={() => setIsOpen(!isOpen)}>
 					CONTACT
 				</Link>
 			</div>
