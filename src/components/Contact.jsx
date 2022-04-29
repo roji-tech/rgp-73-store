@@ -110,6 +110,33 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+      <div className="texts about-contact">
+						<h3> Stay In Touch</h3>
+						<p>
+							Get 10% off your first purchase by joining our mailing
+							list, and receive some of the best deals possible..
+						</p>
+						<div className="about-form">
+							<form action="">
+								<div>
+									<input
+										type="email"
+										id="email"
+										name="email"
+										placeholder="Your Email... "
+									/>
+								</div>
+								<div className="but">
+									<button type="submit" id="but">
+										Subscribe
+									</button>
+								</div>
+							</form>
+						</div>
+
+						<p>If you need anything don't hesitate to contact us!</p>
+					</div>
     </section>
   );
 };
