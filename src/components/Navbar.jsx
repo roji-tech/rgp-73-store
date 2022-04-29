@@ -10,7 +10,7 @@ const Navbar = () => {
 		setIsOpen(!isOpen)
 	}
 	return (
-		<div className="Navbar" onClick={openCloseNav}>
+		<div className="Navbar">
 			<Link to={"/rgp-73-store"}>
 				<span className="nav-logo">Tasty</span>
 			</Link>
