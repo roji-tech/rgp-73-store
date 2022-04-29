@@ -8,6 +8,7 @@
 }
 
 .error-wrap {
+	margin-top: 5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -45,7 +46,7 @@
 }
 
 .back-home {
-	color: white;
+	color: var(--header-color);
 	font-size: x-large;
 	text-transform: capitalize;
 }
@@ -76,7 +77,6 @@
 	}
 
 	.back-home {
-		color: white;
 		font-size: small;
 		text-transform: capitalize;
 	}
