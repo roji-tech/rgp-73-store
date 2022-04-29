@@ -28,16 +28,16 @@ const Footer = () => {
 					<h3 className="footer-subtitle">quick links</h3>
 					<ul>
 						<li>
-							<Link to={"/rgp-73-store"}>home </Link>
+							<Link to={"/"}>home </Link>
 						</li>
 						<li>
-							<Link to={"/rgp-73-store/about/"}>about </Link>
+							<Link to={"/about"}>about </Link>
 						</li>
 						<li>
-							<Link to={"/rgp-73-store/products"}>products </Link>{" "}
+							<Link to={"/products"}>products </Link>{" "}
 						</li>
 						<li>
-							<Link to={"/rgp-73-store/contact"}>contact </Link>{" "}
+							<Link to={"/contact"}>contact </Link>{" "}
 						</li>
 					</ul>
 				</div>

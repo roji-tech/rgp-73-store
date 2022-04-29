@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 const Banner = () => {
 	return (
-		<div className="banner">
+		<div className="banner" id="top">
 			<h1 className="tagline">Eat healthy. live better</h1>
 			<div className="icons">
 				<FaFacebookF className="banner-icon" />
@@ -19,7 +19,7 @@ const Banner = () => {
 				<FaTwitter className="banner-icon" />
 				<FaInstagram className="banner-icon" />
 			</div>
-			<Link to="/rgp-73-store/products">
+			<Link to="/products">
 				<button className="explore-btn">Explore &#8594;</button>
 			</Link>
 		</div>

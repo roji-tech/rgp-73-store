@@ -3,6 +3,7 @@ import React from "react";
 // Component import
 import Banner from "./Banner";
 import Products from "./Products";
+import BackToTop from "./BackToTop";
 // Image import
 import value from "../img/meal-1.jpg";
 // styles import
@@ -91,6 +92,7 @@ const Home = () => {
 			<div>
 				<Products />
 			</div>
+				<BackToTop />
 		</>
 	);
 };

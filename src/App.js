@@ -15,16 +15,16 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="rgp-73-store">
       <Routes>
-        <Route path="/rgp-73-store" element={<Wrapper />}>
+        <Route path="/" element={<Wrapper />}>
           <Route index element={<Home />} />
-          <Route path="/rgp-73-store/about" element={<About />} />
-          <Route path="/rgp-73-store/contact" element={<Contact />} />
-          <Route path="/rgp-73-store/products" element={<Products />}>
-            <Route index path="/rgp-73-store/products" element={<Product />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<Products />}>
+            <Route index path="/products" element={<Product />} />
             <Route
-              path="/rgp-73-store/products/:productId"
+              path="/products/:productId"
               element={<Product />}
             />
           </Route>

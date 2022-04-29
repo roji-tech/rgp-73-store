@@ -17,7 +17,7 @@ const Error = () => {
 				<p className="pg-not-fd">Page Not Found</p>
 
 				<div className="back-home-wrap">
-					<Link to="/rgp-73-store" className="back-home">
+					<Link to="/" className="back-home">
 						Click to go back to Home Page
 					</Link>
 				</div>

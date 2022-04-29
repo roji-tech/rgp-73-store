@@ -11,20 +11,20 @@ const Navbar = () => {
 	}
 	return (
 		<div className="Navbar">
-			<Link to={"/rgp-73-store"}>
+			<Link to={"/"}>
 				<span className="nav-logo">Tasty</span>
 			</Link>
 			<div className={`nav-items ${isOpen && "open"}`}>
-				<Link to="/rgp-73-store" className="link" onClick={openCloseNav}>
+				<Link to="/" className="link" onClick={openCloseNav}>
 					HOME
 				</Link>
-				<Link to="/rgp-73-store/about" className="link" onClick={openCloseNav}>
+				<Link to="/about" className="link" onClick={openCloseNav}>
 					ABOUT
 				</Link>
-				<Link to="/rgp-73-store/products" className="link" onClick={openCloseNav}>
+				<Link to="/products" className="link" onClick={openCloseNav}>
 					PRODUCTS
 				</Link>
-				<Link to="/rgp-73-store/contact" className="link" onClick={openCloseNav}>
+				<Link to="/contact" className="link" onClick={openCloseNav}>
 					CONTACT
 				</Link>
 			</div>
