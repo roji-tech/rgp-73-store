@@ -30,7 +30,7 @@ const About = () => {
 								In order to meet this promise, we are focused on
 								preparing the best quality of food and drinks to our
 								customers. We also offer the best take-out and food
-								delivery services.{" "}
+								delivery services.
 							</p>
 						</div>
 					</div>
