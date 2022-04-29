@@ -1,5 +1,6 @@
 .about {
     padding-top: 60px;
+    /* background-color: var(--body-color); */
 }
 
 .texts {
@@ -11,8 +12,8 @@
 
 .who {
     font-size: 40px;
+    line-height: 1em;
     margin: 50px;
-
     padding-top: -20px;
 }
 
@@ -197,6 +198,7 @@
 .about-contact {
     color: aliceblue;
     background-color: rgb(7, 32, 32);
+    padding: 25px;
 }
 
 #email {

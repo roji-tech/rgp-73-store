@@ -124,9 +124,9 @@ const About = () => {
 					<div className="texts">
 						<p>All the best</p>
 					</div>
+					<br />
 					<div className="last-text">
 						<p>
-							{" "}
 							<b id="tasty"> Tasty </b> YUMMY FOOD Restaurant{" "}
 						</p>
 					</div>
