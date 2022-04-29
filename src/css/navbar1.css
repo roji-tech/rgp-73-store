@@ -67,6 +67,8 @@
     }
     .Navbar>.nav-items>.link {
         margin: 2rem;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        transition: all .5s ease-in-out;
     }
     .Navbar>.nav-items>.link::before {
         background: transparent;

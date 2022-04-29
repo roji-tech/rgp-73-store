@@ -12,6 +12,7 @@
 .who {
     font-size: 40px;
     margin: 50px;
+
     padding-top: -20px;
 }
 
@@ -39,6 +40,9 @@
 .about-section {
     display: flex;
     flex-direction: row-reverse;
+
+    line-height: 1em;
+
 }
 
 .about-global-wrap {

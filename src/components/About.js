@@ -2,8 +2,10 @@ import React from "react";
 
 import "../css/about.css";
 
-import imgs from "../img/lap2.jpeg";
 import res from "../img/restaurant.jpg"
+
+import imgs from "../img/no_image.jpg";
+
 
 const About = () => {
 	return (
@@ -16,6 +18,7 @@ const About = () => {
 					</div>
 				</div>
 				<div className="about-global-wrap">
+
 					
 					<div className="about-section">
 						<div className="texts" id="text2">
@@ -33,13 +36,14 @@ const About = () => {
 					<div>
 						<h4 className="who">About Us</h4>
 						<p className="text-p">
-							<b> RGP-73 Accessories Store </b> is a restaurant designed around the farmer's haul
+							<b> Tasty Restaurant </b> is a restaurant designed around the farmer's haul
 							featuring a menu that changes daily with a focus on seasonal and local cuisine. 
 							Our grains are milled fresh for house made pasta, breads, and deserts, whole animal butchery is done on site, and 
 							an extensive in house fermentation program captures flavors at their peak and preserves them for the off season. When you visit the restaurant,
 							check out our larder to see vinegars, and brines bubbling away. <br></br>
 							There are two ways to dine with use. One is off the menu which offers small plates, pastas and deserts, which are all meant to be shared.
 							In addition to our printed menu, guests can also order directly off circulating carts that stop by during their meal to try 'dim sum' bites. These nightly specials will be described as tableside.
+
 						</p>
 					</div>
 					<div id="members-wrap">
@@ -64,13 +68,6 @@ const About = () => {
 								<div class="card-body">
 									<h5 class="card-title">Sprinkle</h5>
 									<p class="card-text">Front-End Developer.</p>
-								</div>
-							</div>
-							<div class="member">
-								<img src={imgs} class="card-img-top" alt="Member" />
-								<div class="card-body">
-									<h5 class="card-title">Mendouksai</h5>
-									<p class="card-text">Back-End Developer.</p>
 								</div>
 							</div>
 							<div class="member">
@@ -106,18 +103,21 @@ const About = () => {
 
 					{/* <div className="prodlist">
 						<p>
-							<b> We are committed to:</b>
+							<b>
+								<em> We are committed to:</em>
+							</b>
 						</p>
+						<br />
 						<ol className="about-prodlist">
-							<li>Computer Accesories </li>
-							<li>focusing on finding you the best ACCESSORIES</li>
-							<li>
-								giving quality services and the best deals possible.
-							</li>
+							<li>Food Delivery. </li>
+							<li>finding you the best YUMMY.</li>
+							<li>giving quality services.</li>
+							<li>the best deals possible.</li>
 						</ol>
 					</div> */}
 					{/* <div className="texts goal">
 						<p>YOUR SATISFACTION IS OUR PRIORITY</p>
+						<hr />
 						<p>THE WORLD IS OUR COMMUNITY</p>
 					</div> */}
 					
@@ -125,7 +125,10 @@ const About = () => {
 						<p>All the best</p>
 					</div>
 					<div className="last-text">
-						<p>RGP-73 GROUP OF MARKETERS</p>
+						<p>
+							{" "}
+							<b id="tasty"> Tasty </b> YUMMY FOOD Restaurant{" "}
+						</p>
 					</div>
 				</div>
 			</div>
