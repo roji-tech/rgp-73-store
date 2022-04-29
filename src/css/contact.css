@@ -9,6 +9,9 @@
   color: rgb(228, 228, 228);
   color: black;
 }
+.contact-title{
+  margin-top: 4rem;
+}
 
 .row {
   display: flex;
