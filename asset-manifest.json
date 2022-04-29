@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/rgp-73-store/static/css/main.deffed75.css",
-    "main.js": "/rgp-73-store/static/js/main.3ab89720.js",
+    "main.css": "/rgp-73-store/static/css/main.f055b3da.css",
+    "main.js": "/rgp-73-store/static/js/main.a6c86cda.js",
     "static/js/787.c8de6e26.chunk.js": "/rgp-73-store/static/js/787.c8de6e26.chunk.js",
+    "static/media/no_image.jpg": "/rgp-73-store/static/media/no_image.22d2aa4d1af1a092666a.jpg",
     "static/media/banner.jpg": "/rgp-73-store/static/media/banner.8af628d5edbf58ff4dc5.jpg",
     "static/media/meal-7.jpg": "/rgp-73-store/static/media/meal-7.f8b792658fdcfd2b55a4.jpg",
     "static/media/meal-5.jpg": "/rgp-73-store/static/media/meal-5.8967081225cdb0529f6e.jpg",
@@ -12,15 +13,16 @@
     "static/media/meal-6.jpg": "/rgp-73-store/static/media/meal-6.319e35446de277e2f5e5.jpg",
     "static/media/meal-2.jpg": "/rgp-73-store/static/media/meal-2.51bfa7c427da104a13cb.jpg",
     "static/media/meal-4.jpg": "/rgp-73-store/static/media/meal-4.bfb1f8bf86b2aa6281d5.jpg",
+    "static/media/restaurant.jpg": "/rgp-73-store/static/media/restaurant.75cfbac9677069158f6c.jpg",
     "static/media/meal-3.jpg": "/rgp-73-store/static/media/meal-3.e6c83fa94100e4757c80.jpg",
     "static/media/error.svg": "/rgp-73-store/static/media/error.8dd8ec14977596642ed0073cef89dbd6.svg",
     "index.html": "/rgp-73-store/index.html",
-    "main.deffed75.css.map": "/rgp-73-store/static/css/main.deffed75.css.map",
-    "main.3ab89720.js.map": "/rgp-73-store/static/js/main.3ab89720.js.map",
+    "main.f055b3da.css.map": "/rgp-73-store/static/css/main.f055b3da.css.map",
+    "main.a6c86cda.js.map": "/rgp-73-store/static/js/main.a6c86cda.js.map",
     "787.c8de6e26.chunk.js.map": "/rgp-73-store/static/js/787.c8de6e26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.deffed75.css",
-    "static/js/main.3ab89720.js"
+    "static/css/main.f055b3da.css",
+    "static/js/main.a6c86cda.js"
   ]
 }
