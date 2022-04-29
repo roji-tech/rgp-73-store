@@ -1,6 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import "../css/error.css";
 import errorImage from "../img/error.svg";
@@ -8,7 +6,6 @@ import errorImage from "../img/error.svg";
 const Error = () => {
 	return (
 		<div>
-			<Navbar />
 			<div className="error">
 				<div className="error-wrap">
 					<img src={errorImage} className="errorImage" alt="" />
@@ -22,7 +19,6 @@ const Error = () => {
 					</Link>
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };

@@ -39,14 +39,14 @@
 .back-home-wrap {
 	margin: 30px;
 	border-radius: 20px;
-	background-color: var(--color-4);
+	background-color: var(--color-3);
 	width: max-content;
 	text-align: center;
 	padding: 10px;
 }
 
 .back-home {
-	color: var(--header-color);
+	color: var(--color-1);
 	font-size: x-large;
 	text-transform: capitalize;
 }
