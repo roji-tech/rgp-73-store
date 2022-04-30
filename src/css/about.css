@@ -282,6 +282,7 @@
 		margin-top: 20px;
 		text-align: justify;
 		width: 80%;
+		font-size: medium;
 	}
 	.about-grid {
 		display: flex;
