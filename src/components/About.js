@@ -23,12 +23,13 @@ const About = () => {
             obcaecati. Itaque mollitia repellat necessitatibus ipsam perferendis
             consectetur obcaecati quam dolore.
           </p>
-          <Button />
+          <Button text={"Explore"} />
         </div>
         <div className="col-2">
           <img src={meal5} alt="" />
         </div>
       </div>
+      <div className="stats"></div>
     </section>
   );
 };

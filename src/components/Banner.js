@@ -21,7 +21,7 @@ const Banner = () => {
         <FaInstagram className="banner-icon" />
       </div>
 
-      <Button />
+      <Button text={"Explore"} />
     </div>
   );
 };

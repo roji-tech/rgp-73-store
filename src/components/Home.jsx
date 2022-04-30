@@ -12,7 +12,8 @@ import "../css/home.css";
 const Home = () => {
   return (
     <>
-      <Banner />
+      <Banner text={"Explore"} />
+
       <section className="value">
         <div>
           <h2 className="custom-title">
