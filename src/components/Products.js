@@ -101,7 +101,7 @@ const SingleProduct = ({ productDetails }) => {
 const Products = () => {
   return (
     <section className="product-section">
-      <h2 className="custom-title">
+      <h2 className="custom-title product-title">
         Our Products <span></span>
       </h2>
       <div className="product-list">

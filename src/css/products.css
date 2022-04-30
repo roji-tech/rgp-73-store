@@ -101,4 +101,7 @@
   .product-section {
     padding: 1.5rem 1.2rem;
   }
+  .product-title{
+    padding-top: 20px;
+  }
 }
