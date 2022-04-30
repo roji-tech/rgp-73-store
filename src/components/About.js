@@ -13,7 +13,7 @@ const About = () => {
       <div className="row">
         <div className="col-2">
           <h3>We're committed to providing the best customer service</h3>
-          <p>
+          <p className="about-motive">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
             molestias delectus laudantium asperiores quas enim nihil sed
             deserunt, fugiat minima incidunt, ea commodi. Necessitatibus
