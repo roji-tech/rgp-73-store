@@ -3,7 +3,9 @@
 	/* background-color: var(--body-color); */
 	overflow-x: hidden;
 }
-
+.img-div{
+	max-width: fit-content;
+}
 .about-section {
 	display: flex;
 	flex-direction: row-reverse;
@@ -305,5 +307,8 @@
 @media (max-width: 500px) {
 	.texts p {
 		font-size: medium;
+	}
+	.img-div{
+		max-width: 80%;
 	}
 }
