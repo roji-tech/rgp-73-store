@@ -7,6 +7,9 @@
 .product-section {
   padding: 6rem 5rem;
 }
+.product-title{
+  padding-top: 40px;
+}
 .product-list {
   display: flex;
   align-items: center;
@@ -102,6 +105,12 @@
     padding: 1.5rem 1.2rem;
   }
   .product-title{
-    padding-top: 20px;
+    padding-top: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .product-section {
+    padding: 1.5rem 1.2rem;
   }
 }
