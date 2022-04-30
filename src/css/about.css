@@ -1,6 +1,7 @@
 .about {
 	padding-top: 60px;
 	/* background-color: var(--body-color); */
+	overflow-x: hidden;
 }
 
 .about-section {
