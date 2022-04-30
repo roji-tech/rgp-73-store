@@ -18,7 +18,7 @@ const About = () => {
 				</div>
 				<div className="about-global-wrap">
 					<div className="about-section">
-						<div className="texts" id="text2">
+						<div className="texts img-div" id="text2">
 							<img src={res} alt="" />
 						</div>
 						<div className="texts">
