@@ -9,26 +9,10 @@
   color: rgb(228, 228, 228);
   color: black;
 }
-.contact-title{
+.contact-title {
   margin-top: 4rem;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.row-2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.col-2 {
-  padding: 20px;
-  flex-basis: 50%;
-}
 .col-2 .address-lists {
   display: flex;
   flex-direction: column;
@@ -112,19 +96,18 @@
   .contact-section {
     padding: 1.8rem 1rem;
   }
-  .row {
+  /* .row {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    /* flex-wrap: ; */
   }
   .col-2 {
     flex-basis: 100%;
     width: 100%;
     padding: 0;
     margin-bottom: 30px;
-  }
+  } */
   .contact-form {
     width: 16.85rem;
   }
