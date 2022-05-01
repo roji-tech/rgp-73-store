@@ -1,0 +1,23 @@
+.newsletter-section {
+  /* margin: 1rem 0; */
+  width: 600px;
+  padding: 1.6rem;
+  background-color: var(--color-1);
+  margin: 0 auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.newsletter-section h3 {
+  text-align: center;
+  color: var(--color-2);
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.newsletter-section .promo {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: var(--color-3);
+}
+.newsletter-section form {
+  display: flex;
+  gap: 10px;
+}
