@@ -4,6 +4,7 @@ import React from "react";
 import Banner from "./Banner";
 import Products from "./Products";
 import BackToTop from "./BackToTop";
+import Newsletter from "./newsletter";
 // Image import
 import value from "../img/meal-1.jpg";
 // styles import
@@ -72,6 +73,7 @@ const Home = () => {
         <Products />
       </div>
       <BackToTop />
+      <Newsletter />
     </>
   );
 };
