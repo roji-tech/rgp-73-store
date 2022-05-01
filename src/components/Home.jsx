@@ -59,19 +59,19 @@ const Home = () => {
 						</p>
 						<h3 className="author">Becca Willams</h3>
 					</div>
-				</div>
-				<div className="testimony">
+					<div className="testimony">
 						<p>
 							"Lorem ipsum dolor, sit amet consectetur adipisicing elit.
 							Voluptates, ex!"
 						</p>
 						<h3 className="author">Ali Soodiq</h3>
 					</div>
-			</section>		
+				</div>
+			</section>
 			<div>
 				<Products />
 			</div>
-				<BackToTop />
+			<BackToTop />
 		</>
 	);
 };
