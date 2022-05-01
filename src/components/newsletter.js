@@ -11,9 +11,8 @@ const newsletter = () => {
       </p>
       <form className="form">
         <input type="text" />
-        <button type="submit">subscribe</button>
+        <button type="">subscribe</button>
       </form>
-      <p>If you need anything don't hesitate to contact us!</p>
     </section>
   );
 };
