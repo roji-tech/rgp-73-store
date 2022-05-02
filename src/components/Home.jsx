@@ -70,9 +70,9 @@ const Home = () => {
         </div>
       </section>
       <div>
+        <BackToTop />
         <Products />
       </div>
-      <BackToTop />
       <Newsletter />
     </>
   );
