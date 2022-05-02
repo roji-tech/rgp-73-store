@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Newsletter from "./newsletter";
+import Newsletter from "./Newsletter";
 import "../css/contact.css";
 import {
   FaAddressBook,

@@ -42,7 +42,9 @@ footer {
   height: 1px;
   background-color: var(--footer);
 }
-
+.quick-links:hover {
+  color: var(--color-4);
+}
 .footer-row .nav-logo {
   font-weight: 700;
   font-size: 2.6rem;

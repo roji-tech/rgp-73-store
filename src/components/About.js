@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Stats from "./Stats";
 
 import "../css/about.css";
 import meal5 from "../img/meal-5.jpg";
@@ -29,7 +30,7 @@ const About = () => {
           <img src={meal5} alt="" />
         </div>
       </div>
-      <div className="stats"></div>
+      <Stats />
     </section>
   );
 };
