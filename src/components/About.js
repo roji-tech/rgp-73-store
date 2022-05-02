@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import Stats from "./Stats";
+import Team from "./Team";
 
 import "../css/about.css";
 import meal5 from "../img/meal-5.jpg";
@@ -31,6 +32,7 @@ const About = () => {
         </div>
       </div>
       <Stats />
+      {/* <Team /> */}
     </section>
   );
 };

@@ -13,7 +13,7 @@ const Stats = () => {
         <p className="stats-text">patners</p>
       </div>
       <div>
-        <h3 className="stats-figure">2,279+</h3>
+        <h3 className="stats-figure">2,279</h3>
         <p className="stats-text">followers</p>
       </div>
     </section>

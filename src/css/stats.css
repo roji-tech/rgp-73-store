@@ -12,12 +12,18 @@
 .stats-section div::after {
   content: "";
   position: absolute;
-  width: 5px;
+  /* width: 5px;
   height: 20px;
   background-color: var(--color-2);
   border-radius: 10px;
   top: 0;
-  right: 0;
+  right: 0; */
+  width: 7px;
+  height: 7px;
+  background-color: var(--color-3);
+  border-radius: 50%;
+  top: 15px;
+  left: 5px;
 }
 .stats-section .stats-figure {
   color: var(--color-3);
@@ -35,7 +41,8 @@
 @media screen and (max-width: 480px) {
   .stats-section {
     gap: 1rem;
-    padding: 1rem;
+    padding: 1.3rem 1rem;
+    margin-bottom: 1rem;
   }
   .stats-section .stats-figure {
     font-size: 1.4rem;
