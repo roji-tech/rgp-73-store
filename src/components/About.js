@@ -32,7 +32,7 @@ const About = () => {
         </div>
       </div>
       <Stats />
-      {/* <Team /> */}
+      <Team />
     </section>
   );
 };
