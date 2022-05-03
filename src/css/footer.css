@@ -19,6 +19,7 @@ footer {
 }
 .footer-row div .footer-subtitle {
   color: var(--color-1);
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 10px;
 }

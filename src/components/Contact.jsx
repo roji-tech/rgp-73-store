@@ -52,7 +52,7 @@ const Contact = () => {
 
           <div className="address-lists">
             <HiOutlineMail className="address-icon" />
-            <p className="email">example@email.com</p>
+            <p className="email address-text">example@email.com</p>
           </div>
           <div className="row-2 social-media">
             <FaTwitter className="social-media-icon" />
