@@ -62,7 +62,7 @@
 
 .contact-form .input {
   width: 100%;
-  color: var(--color-4);
+  color: var(--color-3);
   background-color: rgb(248, 248, 248);
   outline: none;
   border: 1px solid var(--color-1);
@@ -71,9 +71,6 @@
 }
 .contact-form textarea {
   resize: none;
-}
-.contact-form .input::placeholder {
-  font-family: "Nunito", sans-serif;
 }
 
 .input:-webkit-autofill,
