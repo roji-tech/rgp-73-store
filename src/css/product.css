@@ -55,7 +55,7 @@ backToProducts item item-img-div item-img item-detail
 }
 
 .threeDee {
-  font-size:3em;
+  font-size:3.5em;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--color-2);
@@ -66,8 +66,6 @@ backToProducts item item-img-div item-img item-detail
   text-shadow: 1px 1px #056a83,
                2px 2px #056a83,
                3px 3px #056a83,
-               4px 4px #056a83,
-               5px 5px #056a83,
                6px 6px #056a83,
                7px 7px #056a83,
                8px 8px #0e7b9c,
