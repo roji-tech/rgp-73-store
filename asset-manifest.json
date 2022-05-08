@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rgp-73-store/static/css/main.88c8f172.css",
-    "main.js": "/rgp-73-store/static/js/main.0a995b7c.js",
+    "main.css": "/rgp-73-store/static/css/main.23311e30.css",
+    "main.js": "/rgp-73-store/static/js/main.ffe3c3c6.js",
     "static/js/787.c8de6e26.chunk.js": "/rgp-73-store/static/js/787.c8de6e26.chunk.js",
     "static/media/emojisky.com-8041071.png": "/rgp-73-store/static/media/emojisky.com-8041071.81a927056c304dee40d7.png",
     "static/media/banner.jpg": "/rgp-73-store/static/media/banner.8af628d5edbf58ff4dc5.jpg",
@@ -16,12 +16,12 @@
     "static/media/meal-3.jpg": "/rgp-73-store/static/media/meal-3.e6c83fa94100e4757c80.jpg",
     "static/media/error.svg": "/rgp-73-store/static/media/error.8dd8ec14977596642ed0073cef89dbd6.svg",
     "index.html": "/rgp-73-store/index.html",
-    "main.88c8f172.css.map": "/rgp-73-store/static/css/main.88c8f172.css.map",
-    "main.0a995b7c.js.map": "/rgp-73-store/static/js/main.0a995b7c.js.map",
+    "main.23311e30.css.map": "/rgp-73-store/static/css/main.23311e30.css.map",
+    "main.ffe3c3c6.js.map": "/rgp-73-store/static/js/main.ffe3c3c6.js.map",
     "787.c8de6e26.chunk.js.map": "/rgp-73-store/static/js/787.c8de6e26.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88c8f172.css",
-    "static/js/main.0a995b7c.js"
+    "static/css/main.23311e30.css",
+    "static/js/main.ffe3c3c6.js"
   ]
 }
