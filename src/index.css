@@ -33,12 +33,12 @@ body {
 a,
 a:focus {
   text-decoration: none;
-  /* color: var(--header-color); */
   color: var(--color-4);
 }
-a:hover {
-  /* font-weight: 1000; */
-}
+
+/* a:hover {
+  font-weight: 1000;
+} */
 
 .custom-title {
   display: inline-block;
@@ -111,4 +111,23 @@ a:hover {
     padding: 0;
     margin-bottom: 30px;
   }
+}
+
+/* =========================
+      CUSTOM 3D TITLE
+    ========================= */
+
+.custom-3D-title {
+  font-size: 4em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #f2395a;
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+  transform: skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  text-shadow: 1px 1px #2ea9be, 2px 2px #2ea9be, 7px 7px #2ea9be,
+    5px 5px #2ea9be, 4px 4px #195eb3, 6px 6px #195eb3, 3px 3px #195eb3,
+    8px 8px #195eb3, 9px 9px #195eb3, 10px 10px #195eb3,
+    11px 11px 15px rgba(0, 0, 0, 0.2);
 }

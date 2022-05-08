@@ -10,13 +10,15 @@ const BackToTop = () => {
   //   const toTopBtn = document.querySelector("top-btn")
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 800) {
+    let showScrollUpBotton = () => {
+      if (window.scrollY > 600) {
         setScrollUp(true);
       } else {
         setScrollUp(false);
       }
-    });
+    };
+
+    window.addEventListener("scroll", showScrollUpBotton);
   }, []);
 
   //   function to scroll up
@@ -35,9 +37,6 @@ const BackToTop = () => {
         </div>
       )}
     </>
-    // <button className="to-top-but">
-    //   <a href="#top">Go to Top</a>
-    // </button>
   );
 };
 

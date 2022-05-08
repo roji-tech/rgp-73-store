@@ -10,7 +10,7 @@ import value from "../img/meal-1.jpg";
 // styles import
 import "../css/home.css";
 
-const Home = () => {
+const Home = ({items}) => {
   return (
     <>
       <Banner text={"Explore"} />
@@ -70,7 +70,7 @@ const Home = () => {
       </section>
       <div>
         <BackToTop />
-        <Products />
+        <Products items={items} />
       </div>
       <Newsletter />
     </>

@@ -12,7 +12,7 @@ import {
 } from "react-icons/fa";
 const Banner = () => {
   return (
-    <div className="banner" id="top">
+    <div className="banner">
       <h1 className="tagline">Eat healthy. live better</h1>
       <div className="icons">
         <FaFacebookF className="banner-icon" />

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-row">
-        <div className="nav-logo">Tasty</div>
+        <div className="nav-logo custom-3D-title">Tasty</div>
         <div>
           <p>
             Purpose is to sustainably make Lorem ipsum dolor sit amet,

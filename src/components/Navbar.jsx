@@ -1,11 +1,16 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
+// HOOKS
+import useClickOutside from "../Hooks/useClickOutside";
+
+// CSS
 import "../css/navbar1.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [stickyNavbar, setStickyNavbar] = useState("static");
+  const navBarRef = useRef();
 
   const openCloseNav = () => {
     setIsOpen(!isOpen);
@@ -13,7 +18,7 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 60) {
+      if (window.scrollY > 50) {
         setStickyNavbar("fixed");
       } else {
         setStickyNavbar("static");
@@ -21,12 +26,14 @@ const Navbar = () => {
     });
   }, []);
 
+  useClickOutside(navBarRef, openCloseNav, isOpen);
+
   return (
     <div className="Navbar" style={{ position: stickyNavbar }}>
       <Link to={"/"}>
-        <span className="nav-logo">Tasty</span>
+        <span className="nav-logo  custom-3D-title">Tasty</span>
       </Link>
-      <div className={`nav-items ${isOpen && "open"}`}>
+      <div className={`nav-items ${isOpen && "open"}`} ref={navBarRef}>
         <Link to="/" className="link" onClick={openCloseNav}>
           HOME
         </Link>

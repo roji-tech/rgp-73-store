@@ -85,6 +85,11 @@
   border-radius: 50%;
   cursor: pointer;
 } */
+
+#product-link {
+  color: var(--color-2);
+}
+
 .single-product .order-btn {
   cursor: pointer;
   /* background-color: var(--color-2); */

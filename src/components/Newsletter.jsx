@@ -11,7 +11,7 @@ const newsletter = () => {
       </p>
       <form className="form">
         <input type="text" />
-        <button type="">subscribe</button>
+        <button type="" id="sub_gradient-btn">subscribe</button>
       </form>
     </section>
   );

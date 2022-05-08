@@ -10,7 +10,7 @@ const Stats = () => {
       </div>
       <div>
         <h3 className="stats-figure">15</h3>
-        <p className="stats-text">patners</p>
+        <p className="stats-text">partners</p>
       </div>
       <div>
         <h3 className="stats-figure">2,279</h3>
