@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import Button from "./Button";
+import AnimatedButton from "./AnimatedButton";
+import ThreeDText from "./ThreeDText";
 
 import "../css/product.css";
 
@@ -15,12 +17,13 @@ const Product = ({ items }) => {
           <img src={item.image} className="item-img" alt={item.name} />
         </div>
         <div className="item-detail shadow">
-          <h3 className="item-name custom-title threeDee">{item.name}</h3>
+          <ThreeDText className="item-name custom-title" text={item.name}/>
+          {/* <h3 className="item-name custom-title threeDee">{item.name}</h3> */}
           <p className="item-desc">{item.description}</p>
           <p className="item-price">#{item.price}</p>
           <div className="item-order">
-            <button className=" cartbtn animated-button">Add to Cart</button>
-            <button className="animated-button">Order Now</button>
+            <AnimatedButton bgcolor={"rgb(250, 67, 0)"} text={"Add to Cart"} />
+            <AnimatedButton text={"Order Now"} />
           </div>
         </div>
       </div>

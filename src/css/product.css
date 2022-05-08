@@ -1,15 +1,21 @@
 /* ===========
-backToProducts item item-img-div item-img item-detail
- item-name item-desc item-order
+    backToProducts 
+    item
+    item-img-div 
+    item-img
+    item-detail
+    item-name 
+    item-desc
+    item-order
 ============== */
 
 .shadow {
-  box-shadow: 0px 0px 20px 5px rgba(3, 3, 3, 0.5);
+  box-shadow: 0px 0px 20px 2px rgba(3, 3, 3, 0.5);
 }
 
-.item-div{
+.item-div {
   padding: 20px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -30,7 +36,6 @@ backToProducts item item-img-div item-img item-detail
   width: 94%;
 }
 
-
 .item-img-div {
   padding: 5px;
   box-shadow: 0px, 0px, 20px, 10px rgba(3, 3, 3, 0.4);
@@ -44,7 +49,6 @@ backToProducts item item-img-div item-img item-detail
    item-detail
    ========================= */
 
-
 .item-detail {
   padding: 10%;
   display: flex;
@@ -54,30 +58,10 @@ backToProducts item item-img-div item-img item-detail
   margin-right: 10px;
 }
 
-.threeDee {
-  font-size:3.5em;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--color-2);
-  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
-          transform: skew(-5deg, -5deg) rotate(5deg);
-  -webkit-transform-origin: center center;
-          transform-origin: center center;
-  text-shadow: 1px 1px #056a83,
-               2px 2px #056a83,
-               3px 3px #056a83,
-               6px 6px #056a83,
-               7px 7px #056a83,
-               8px 8px #0e7b9c,
-               9px 9px #0e7b9c,
-               10px 10px #0e7b9c,
-               11px 11px 15px rgba(0,0,0,0.5);
-}
-
 .item-price {
   font-weight: 1000;
   font-size: 1.5em;
-  margin: 10px;
+  margin: 15px;
   font-style: italic;
 }
 
@@ -91,49 +75,6 @@ backToProducts item item-img-div item-img item-detail
   justify-content: space-between;
   align-items: center;
   box-shadow: 30px, 20px, 30px, 0 rgba(3, 3, 3, 0.4);
-}
-
-
-
-/* =========================
-   ANIMATED BUTTONS
-   ========================= */
-
-.animated-button {
-  position: relative;
-  display: inline-block;
-  padding: 10px 30px;
-  font-size: .8rem;
-  font-weight: bolder;
-  background-color: #00b3b4;
-  background-size: 20px 20px;
-  border: 1px solid #555;
-  color: white;
-  transition: all 0.3s ease;
-  margin: 10px;
-}
-.animated-button:after {
-  position: absolute;
-  top: 50%;
-  right: 0.6em;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  content: "»";
-  opacity: 0;
-  transition: all 0.3s ease;
-}
-.animated-button:hover {
-  padding: 10px 45px 10px 15px;
-  box-shadow: 0px 12px 10px 0px rgba(3, 3, 3, 0.3);
-
-}
-.animated-button:hover:after {
-  right: 1.2em;
-  opacity: 1;
-}
-
-.cartbtn{
-  background-color: rgb(250, 67, 0);
 }
 
 /* =========================
@@ -150,32 +91,47 @@ backToProducts item item-img-div item-img item-detail
   }
   .item-img {
     width: 70vw;
-    
-  }
-  .animated-button {
-    font-size: 1.2rem;
   }
 }
-
 
 /* =========================
    MEDIA QUERIES 500px
    ========================= */
 
-   @media screen and (max-width: 1200px) {
-
-    .threeDee{
-      font-size: 2em;
-    }
-
-    .item-order{
-      flex-direction: column;
-    }
-
-    .animated-button {
-      font-size: 1.0rem;
-      width: 100%
-    }
-
+@media screen and (max-width: 650px) {
+  .item-detail {
+    width: 90%;
   }
-  
+  .item-order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ===============
+   item-detail
+   ================= */
+
+  .item-detail {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  .item-price {
+    margin: 10px;
+  }
+}
+
+/* =========================
+   MEDIA QUERIES 350px
+   ========================= */
+
+@media screen and (max-width: 350px) {
+  .item-order {
+    display: flex;
+    flex-direction: column;
+  }
+}

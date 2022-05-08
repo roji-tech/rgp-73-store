@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import useClickOutside from "../Hooks/useClickOutside";
 
 // CSS
-import "../css/navbar1.css";
+import "../css/navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

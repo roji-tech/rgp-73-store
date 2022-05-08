@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-row">
+        <Link to="/">
         <div className="nav-logo custom-3D-title">Tasty</div>
+        </Link>
         <div>
           <p>
             Purpose is to sustainably make Lorem ipsum dolor sit amet,
